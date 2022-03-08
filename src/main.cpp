@@ -40,7 +40,8 @@ int main(){
     {
         a.push_back(number);                                    // push to the array
     }
-
+    
+    fileone.close();                                            //close the file
 
     add_to_array(a, number_array);                              // then create the number_array(as pyramid)
 
