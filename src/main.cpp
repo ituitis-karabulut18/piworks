@@ -80,7 +80,7 @@ void add_to_array(vector<int> a ,int** array){
 }
 
 bool check_prime(int number){
-    bool flag = false;              //if its prime return true   
+    bool flag = true;              //if its prime return true   
     
     if (number == 0 || number == 1 )
     {
